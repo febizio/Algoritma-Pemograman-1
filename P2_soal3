@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int bil1,bil2,hasil;
+    
+    cout<<"masukan bilangan 1 dan bilangan 2 !"<<endl;
+    cout<<bil1;
+    cin>>bil1;
+    cout<<bil2;
+    cin>>bil2;
+    cout<<endl;
+    
+    cout<<"hasil Aritmatika"<<endl;
+    
+    hasil = bil1 + bil2;
+    cout<<"bil1 + bil2 = "<<hasil<<endl;
+    
+    hasil = bil1 - bil2;
+    cout<<"bil1 - bil2 = "<<hasil<<endl;
+    
+    hasil = bil1 * bil2;
+    cout<<"bil1 * bil2 = "<<hasil<<endl;
+    
+    hasil = bil1 / bil2;
+    cout<<"bil1 / bil2 = "<<hasil<<endl;
+    
+    
+}
